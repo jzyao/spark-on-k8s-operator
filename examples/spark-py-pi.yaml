@@ -26,7 +26,7 @@ spec:
   pythonVersion: "2"
   mode: cluster
   image: "jzdoris/spark-py:v2.4.0"
-  imagePullPolicy: Always
+  imagePullPolicy: IfNotPresent
   mainApplicationFile: local:///opt/spark/examples/src/main/python/pi.py
   sparkVersion: "2.4.0"
   restartPolicy:
