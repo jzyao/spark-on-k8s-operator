@@ -17,7 +17,7 @@ apiVersion: "sparkoperator.k8s.io/v1beta1"
 kind: SparkApplication
 metadata:
   name: spark-pi
-  namespace: spark-history-server	
+  namespace: default	
 spec:
   sparkConf:
     "spark.ui.port": 4045
